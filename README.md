@@ -16,7 +16,7 @@ A dataset is flagged as poisoned if the discrepancy exceeds a certain threshold.
 
 <img src="diva_full.svg" alt="DIVA framework" width="600"/>
 
-DIVA constructs a meta-database by extracting C-Measures from generated datasets $G^{(i)}$. By generating multiple poisoned datasets $G^{(i)}_{tr;p_j}$ with poisoned classifiers $g^{(i)}_{p_j}$ from the training split $G^{(i)}_{tr;clean}$, the meta-dataset collects multiple C-Measures and accuracy pairs for each $G^{(i)}$.
+DIVA constructs a meta-database by extracting C-Measures from generated datasets $G^{(i)}$. By generating multiple poisoned datasets $G^{(i)}_{tr;pj}$ with poisoned classifiers $g^{(i)}_{pj}$ from the training split $G^{(i)}_{tr;clean}$, the meta-dataset collects multiple C-Measures and accuracy pairs for each $G^{(i)}$.
 
 ## Supplementary material
 
