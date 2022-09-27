@@ -155,7 +155,7 @@ test.*
 .Rhistory
 
 # Generated files and raw data
-data/
+# data/
 !data/raw/*
 results/
 
